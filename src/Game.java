@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Game {
     public static void run(){
         while(true){
@@ -7,5 +9,6 @@ public class Game {
 
         }
     }
+        System.out.println("Vous êtes mort !");
 
 }

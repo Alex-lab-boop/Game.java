@@ -1,7 +1,7 @@
 package Game;
 import java.util.Random;
 
-public class Pet {
+public enum Pet {
     Bird("Bird"),
     Cat("Cat"),
     rat("rat"),

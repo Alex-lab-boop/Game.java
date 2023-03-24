@@ -20,8 +20,8 @@ private static void start(){
     System.out.println("Welcome to Poudlard, My name is Dumbledore, I am the director");
     wait.wait(2000);
     System.out.println("What's your name ?");
-    nom = Objet.nextLine();
-    System.out.println("Your name is  " + nom + "that's a great name");
+    name = Objet.nextLine();
+    System.out.println("Your name is  " + name + "that's a great name");
     wait.wait(2000);
     Pet Name = Pet.randomPet();
     System.out.println("I see that your pet's name is " + Name + ".");
@@ -31,7 +31,7 @@ private static void start(){
 }
     public static Sorcier newSorcier(){
         Sorcier sorcier = new Sorcier();
-        Sorcier.setWand(baguette);
+        Sorcier.setbaguette(baguette);
         Sorcier.setPet(pet);
         Sorcier.setHouse(house);
         return Sorcier;

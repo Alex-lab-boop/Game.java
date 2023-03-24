@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
     Sorcier.run();
     wait.wait(2000);
-    Bag.run();
+    baguette.run();
     wait.wait(2000);
-    Hat.ChooseHouse();
+    Hat.Choo  seHouse();
 
 
 
